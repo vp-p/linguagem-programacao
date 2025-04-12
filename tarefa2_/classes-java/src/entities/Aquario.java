@@ -31,6 +31,6 @@ public class Aquario {
 
     public void adicionarPeixe(String tipo) {
         peixes.add(tipo);
-        System.out.println("Um peixe do tipo " + tipo + " foi adicionadp ao aquario.");
+        System.out.println("Um peixe do tipo " + tipo + " foi adicionado ao aquario.");
     }
 }

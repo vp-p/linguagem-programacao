@@ -10,6 +10,7 @@ public class Bolos{
         this.massa = massa;
         this.cobertura = cobertura;
         this.recheio = recheio;
+        System.out.println("Novo bolo de "+ massa + " com cobertura de " + cobertura + " e recheio de "+ recheio);
     }
 
     public void setMassa (String massa){
@@ -31,5 +32,7 @@ public class Bolos{
     public String getRecheio(){
         return recheio;
     }
+
+
 }
 
