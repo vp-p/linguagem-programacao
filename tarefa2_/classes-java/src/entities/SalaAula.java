@@ -37,11 +37,4 @@ public class SalaAula {
             }
         }
     }
-
-    public static void main(String[] args) {
-        SalaAula sala = new SalaAula(101, 5, "Matemática", "Prof. Silva");
-        sala.adicionarAluno(new Aluno("João", 12345));
-        sala.adicionarAluno(new Aluno("Maria", 67890));
-        sala.listarAlunos();
-    }
 }

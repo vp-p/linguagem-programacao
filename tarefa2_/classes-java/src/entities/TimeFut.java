@@ -22,7 +22,7 @@ public class TimeFut {
     }
 
     public void listarJogadores() {
-        System.out.println("Jogadores titulares:");
+        System.out.println("Jogadores:");
         for (Jogador jogador : jogadores) {
                 System.out.println(jogador);
         }
